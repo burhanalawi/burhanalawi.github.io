@@ -1,0 +1,42 @@
+/* Start Body */
+body {
+    color: #24292e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgb(4, 37, 7)
+}
+.bg-red {
+    background-color: rgb(28, 145, 17)
+}
+/* End Debug */
+
+/* Start Contaioner */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width:  85%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width:  100%;
+}
+/* End Contaioner */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* Start Logo */
+
+/* Start Menu Primer */
+.menu-primer
+/* Start Menu Primer */
