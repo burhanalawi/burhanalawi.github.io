@@ -1,7 +1,7 @@
 /* Start Body */
 body {
     color: #24292e;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-size: 16px;
     line-height: 1.5em;
     margin: 0;
@@ -11,10 +11,10 @@ body {
 
 /* Start Debug */
 .bg-blue {
-    background-color: rgb(4, 37, 7)
+    background-color: rgb(4, 76, 88)
 }
 .bg-red {
-    background-color: rgb(28, 145, 17)
+    background-color: rgb(201, 245, 201)
 }
 /* End Debug */
 
@@ -45,17 +45,16 @@ body {
 /* Start Menu Primer */
 
 /* Start Menu Snip */
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+
 .snip1490 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: left;
   text-transform: uppercase;
   font-weight: 400;
-  background-color: rgb(133, 212, 164);
+  background-color: rgb(39, 221, 109);
   display: inline-block;
   padding: 0;
-  letter-spacing: 2px;
+  letter-spacing: 8.8px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
 }
@@ -90,7 +89,7 @@ body {
 .snip1490 a {
   color: #000000;
   display: block;
-  padding: 1.1em 2em 1.3em;
+  padding: 1em 2em 1.2em;
   position: relative;
   text-decoration: none;
 }
@@ -118,75 +117,83 @@ body {
   position: absolute;
   bottom: 0;
   left: -1px;
-  right: -1px;
+  right: 1px;
   height: 5px;
   background-color: green;
   box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.5);
 }
-
-.snip1490 ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-  margin: 0;
-  padding: 5px 0;
-  white-space: nowrap;
-  font-size: 0.8em;
-  background-color: #8e2a20;
-  color: #ffffff;
-  font-weight: 400;
-}
-
-.snip1490 ul li {
-  display: list-item;
-  float: none;
-  position: relative;
-}
-
-.snip1490 ul li a {
-  padding: 0.8em 1.2em;
-  color: #ffffff;
-  text-transform: none;
-  opacity: 0.8;
-}
-
-.snip1490 ul li a:hover {
-  opacity: 1;
-}
-
-.snip1490 li:hover > ul {
-  display: inherit;
-}
-
-.snip1490 li > a:after {
-  content: ' \f3d0';
-  font-family: "Ionicons";
-}
-
-.snip1490 li > a:only-child:after {
-  content: '';
-}
-
-.snip1490 ul ul {
-  background-color: #962d22;
-  top: 0px;
-  left: 100%;
-  list-style: none;
-  font-size: 1em;
-}
-
-.snip1490 ul li > a:after {
-  content: ' \f3d1';
-}
-
-.snip1490 > li:hover > a,
-.snip1490 > li.current > a {
-  color: #fff;
-}
-
 .snip1490 > li:hover:before,
 .snip1490 > li.current:before {
   bottom: 0;
   opacity: 1;
 }
 /* End Menu Snip */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+  background-color: #b2e9a1;
+  border-bottom: 1px solid #1f4619;
+  border-top : 1px solid #5b640b;
+  overflow: auto;
+  padding: 10px 0;
+}
+.menu-sekunder h4 {
+  font-size: 14px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.menu-sekunder ul {
+  padding: 0;
+}
+.menu-sekunder li {
+  list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+  font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+  float: left;
+}
+.menu-sekunder-one {
+  width: 50%
+}
+.menu-sekunder-two {
+  width: 30%
+}
+.menu-sekunder-three {
+  width: 20%
+}
+.menu-sekunder li img {
+  vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Anchor /Hyperlink */
+a:link,
+a:visited {
+  color: green;
+  text-decoration: none
+}
+a:link,
+a:active {
+  color: rgb(13, 24, 13);
+  text-decoration: none
+}
+/* End Anchor /Hyperlink */
+
+.mainhome-one {
+
+}
+/* Start Visi Misi */
+.visi {
+  float: top: ;
+}
+.misi {
+  float: bottom: ;
+}
+/* End Visi Misi */
